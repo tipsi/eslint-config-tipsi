@@ -23,10 +23,11 @@ module.exports = {
     'import/no-extraneous-dependencies': 0,
     'import/no-unresolved': 0,
     'import/extensions': 0,
-    'no-use-before-define': 0,
-    'no-return-assign': 0,
     'global-require': 0,
     'indent': ['error', 2],
+    'no-use-before-define': 0,
+    'no-return-assign': 0,
+    'quote-props': ['error', 'consistent-as-needed'],
     'semi': ['error', 'never'],
   },
   'plugins': [
