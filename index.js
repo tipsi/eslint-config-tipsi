@@ -15,7 +15,7 @@ module.exports = {
     'react/jsx-filename-extension': 'off',
     'react/prefer-stateless-function': 'off',
     'react/jsx-closing-bracket-location': [
-      1, {
+      'error', {
         'selfClosing': 'line-aligned',
         'nonEmpty': 'after-props'
       }
