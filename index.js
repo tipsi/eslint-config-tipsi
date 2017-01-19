@@ -10,23 +10,34 @@ module.exports = {
     '__DEV__': true,
   },
   'rules': {
-    'react/no-multi-comp': 0,
-    'react/forbid-prop-types': 0,
-    'react/jsx-filename-extension': 0,
-    'react/prefer-stateless-function': 0,
+    'react/no-multi-comp': 'off',
+    'react/forbid-prop-types': 'off',
+    'react/jsx-filename-extension': 'off',
+    'react/prefer-stateless-function': 'off',
     'react/jsx-closing-bracket-location': [
-      1, {
+      'error', {
         'selfClosing': 'line-aligned',
         'nonEmpty': 'after-props'
       }
     ],
-    'import/no-extraneous-dependencies': 0,
-    'import/no-unresolved': 0,
-    'import/extensions': 0,
-    'global-require': 0,
+    'import/no-extraneous-dependencies': 'off',
+    'import/no-unresolved': 'off',
+    'import/extensions': 'off',
+    'comma-dangle': ['error', {
+      'arrays': 'always-multiline',
+      'objects': 'always-multiline',
+      'imports': 'always-multiline',
+      'exports': 'always-multiline',
+      // Trailing commas in functions are allowed only in ES8
+      // https://github.com/eslint/eslint/issues/7809
+      'functions': 'never',
+    }]
+    'global-require': 'off',
     'indent': ['error', 2],
-    'no-use-before-define': 0,
-    'no-return-assign': 0,
+    'no-await-in-loop': 'off',
+    'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
+    'no-return-assign': 'off',
+    'no-use-before-define': 'off',
     'quote-props': ['error', 'consistent-as-needed'],
     'semi': ['error', 'never'],
   },
