@@ -37,6 +37,7 @@ module.exports = {
     'no-await-in-loop': 'off',
     'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
     'no-return-assign': 'off',
+    'no-unused-expressions': ['error', { allowTernary: true }],
     'no-use-before-define': 'off',
     'quote-props': ['error', 'consistent-as-needed'],
     'semi': ['error', 'never'],

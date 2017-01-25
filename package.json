@@ -3,6 +3,9 @@
   "version": "1.2.0",
   "description": "Tipsi shared eslint config",
   "main": "index.js",
+  "scripts": {
+    "test": "eslint -c index.js index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/isnifer/eslint-config-tipsi.git"
