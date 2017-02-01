@@ -33,7 +33,7 @@ module.exports = {
       functions: 'never',
     }],
     'global-require': 'off',
-    'indent': ['error', 2],
+    'indent': ['error', 2, { SwitchCase: 1 }],
     'no-await-in-loop': 'off',
     'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
     'no-return-assign': 'off',
