@@ -35,6 +35,7 @@ module.exports = {
     'global-require': 'off',
     'indent': ['error', 2, { SwitchCase: 1 }],
     'no-await-in-loop': 'off',
+    'no-confusing-arrow': 'off',
     'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
     'no-return-assign': 'off',
     'no-unused-expressions': ['error', { allowTernary: true }],
