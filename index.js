@@ -32,6 +32,7 @@ module.exports = {
       // https://github.com/eslint/eslint/issues/7809
       functions: 'never',
     }],
+    'function-paren-newline': ['off'],
     'global-require': 'off',
     'indent': ['error', 2, { SwitchCase: 1 }],
     'max-len': [2, 100],
