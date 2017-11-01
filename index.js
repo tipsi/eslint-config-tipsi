@@ -42,6 +42,8 @@ module.exports = {
     'no-return-assign': 'off',
     'no-unused-expressions': ['error', { allowTernary: true }],
     'no-use-before-define': 'off',
+    'object-curly-newline': 'off',
+    'prefer-promise-reject-errors': 'off',
     'quote-props': ['error', 'consistent-as-needed'],
     'semi': ['error', 'never'],
   },
