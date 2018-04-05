@@ -38,6 +38,7 @@ module.exports = {
     'max-len': [2, 100],
     'no-await-in-loop': 'off',
     'no-confusing-arrow': 'off',
+    'no-console': 'error',
     'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
     'no-return-assign': 'off',
     'no-unused-expressions': ['error', { allowTernary: true }],
