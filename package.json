@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tipsi",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "description": "Tipsi shared eslint config",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/isnifer/eslint-config-tipsi.git"
+    "url": "git+https://github.com/tipsi/eslint-config-tipsi.git"
   },
   "keywords": [
     "eslint",
@@ -18,20 +18,20 @@
   "author": "Tipsi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/isnifer/eslint-config-tipsi/issues"
+    "url": "https://github.com/tipsi/eslint-config-tipsi/issues"
   },
-  "homepage": "https://github.com/isnifer/eslint-config-tipsi#readme",
+  "homepage": "https://github.com/tipsi/eslint-config-tipsi#readme",
   "dependencies": {
-    "babel-eslint": "8.2.2",
-    "eslint-config-airbnb": "16.1.0",
-    "eslint-plugin-import": "2.10.0",
-    "eslint-plugin-jsx-a11y": "6.0.3",
-    "eslint-plugin-react": "7.7.0"
+    "babel-eslint": "8.2.6",
+    "eslint-config-airbnb": "17.0.0",
+    "eslint-plugin-import": "2.13.0",
+    "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-react": "7.10.0"
   },
   "devDependencies": {
-    "eslint": "4.19.1"
+    "eslint": "5.2.0"
   },
   "peerDependencies": {
-    "eslint": "4.19.1"
+    "eslint": "5.2.0"
   }
 }
