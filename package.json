@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tipsi",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Tipsi shared eslint config",
   "main": "index.js",
   "scripts": {
@@ -23,15 +23,16 @@
   "homepage": "https://github.com/tipsi/eslint-config-tipsi#readme",
   "dependencies": {
     "babel-eslint": "8.2.6",
-    "eslint-config-airbnb": "17.0.0",
-    "eslint-plugin-import": "2.13.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-plugin-import": "2.14.0",
     "eslint-plugin-jsx-a11y": "6.1.1",
-    "eslint-plugin-react": "7.10.0"
+    "eslint-plugin-react": "7.11.1",
+    "eslint-plugin-tipsi": "1.0.1"
   },
   "devDependencies": {
-    "eslint": "5.2.0"
+    "eslint": "5.4.0"
   },
   "peerDependencies": {
-    "eslint": "5.2.0"
+    "eslint": "5.4.0"
   }
 }
