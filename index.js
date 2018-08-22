@@ -54,8 +54,10 @@ module.exports = {
     'prefer-promise-reject-errors': 'off',
     'quote-props': ['error', 'consistent-as-needed'],
     'semi': ['error', 'never'],
+    'tipsi/remove-event-listener': ['error'],
   },
   plugins: [
     'react',
+    'tipsi',
   ],
 }
